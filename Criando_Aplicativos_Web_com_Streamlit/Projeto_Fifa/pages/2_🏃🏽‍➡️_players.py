@@ -24,7 +24,7 @@ st.markdown(f"**Posição:** {player_stats['Position']}")
 
 col1, col2, col3, col4 = st.columns(4)
 col1.markdown(f"**Idade:** {player_stats['Age']}")
-col2.markdown(f"**Altura:** {player_stats['Height(cm.)'] / 100}")
+col2.markdown(f"**Altura:** {player_stats['Height(cm.)'] / 100:.2f} m")
 col3.markdown(f"**Peso:** {player_stats['Weight(lbs.)']*0.453:.2f}")
 st.divider()
 
